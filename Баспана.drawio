@@ -1,0 +1,755 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="qaD1VtqhEarKRUP8CmMw">
+    <mxGraphModel dx="4024" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFF2CC;sketch=0;strokeColor=#FFD966;strokeWidth=1;fillColor=#FFF2CC;gradientColor=#FFF4C3;fontColor=#000000;" value="" vertex="1">
+          <mxGeometry height="231" width="309" x="749" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-2" parent="1" style="vsdxID=438;fillColor=#FFFFFF;gradientColor=none;shape=stencil(UzV2Ls5ILEhVNTIoLinKz04tz0wpyVA1dlE1MsrMy0gtyiwBslSNXVWNndPyi1LTi/JL81Ig/IJEkEoQKze/DGRCBUSfAUiHkUElhGdoAOG7QZTmZOYhKTWlkVqYJFmKiXcDVVSSqRDNS0AGIj7SMnNyINGJLI8ef0AhSNwbuwIA);spacingLeft=1;spacingRight=1;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Отдельная подсеть&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30.36" width="143.36" x="915.6399999999994" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-3" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-24" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.045;exitY=0.187;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-11" value="">
+          <mxGeometry height="50" width="50" x="-25304.379999999997" y="-14.11725531601433" as="geometry">
+            <Array as="points">
+              <mxPoint x="957" y="547" />
+              <mxPoint x="897" y="547" />
+              <mxPoint x="897" y="548" />
+            </Array>
+            <mxPoint x="958" y="580" as="sourcePoint" />
+            <mxPoint x="967.0900000000001" y="710.5699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-4" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 1433&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1554" y="-3" as="geometry">
+            <mxPoint x="-13" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-5" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="617" y="569" />
+            </Array>
+            <mxPoint x="829.8099999999977" y="619.4300000000001" as="sourcePoint" />
+            <mxPoint x="766.7900000000009" y="569.4300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-6" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https:443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0821" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-7" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;edgeStyle=orthogonalEdgeStyle;" target="K-CkyWVL4vgsXOSi3DJp-107" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="523" />
+              <mxPoint x="668" y="523" />
+            </Array>
+            <mxPoint x="777" y="523" as="sourcePoint" />
+            <mxPoint x="816.7900000000009" y="449.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-8" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https: 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0257" y="2" as="geometry">
+            <mxPoint x="39" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-9" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="K-CkyWVL4vgsXOSi3DJp-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-10" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https 443" vertex="1">
+          <mxGeometry relative="1" x="0.6223" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-11" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.cluster_server;fontColor=#000000;" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1 ; font-size: 11px&quot;&gt;K1.&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-family: themed; font-size: 11px; letter-spacing: 0px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Портал недвижимости&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;&lt;div style=&quot;font-family: themed; font-size: 11px; letter-spacing: 0px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88.57" width="75.21" x="783" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-12" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-11" style="endArrow=classic;startArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="826" y="412" />
+              <mxPoint x="1214" y="412" />
+            </Array>
+            <mxPoint x="1006.7900000000009" y="589.4300000000001" as="sourcePoint" />
+            <mxPoint x="1186" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-13" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 1433&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.469" y="3" as="geometry">
+            <mxPoint x="-22" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-14" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="775" />
+            </Array>
+            <mxPoint x="797" y="775" as="sourcePoint" />
+            <mxPoint x="776.7900000000009" y="679.4300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-15" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https:443&lt;br&gt;http: 80 (redirect&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.14" y="1" as="geometry">
+            <mxPoint x="2" y="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-16" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-43" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;exitX=0.455;exitY=0.727;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1299" y="961" />
+              <mxPoint x="938" y="961" />
+            </Array>
+            <mxPoint x="1126" y="923.4749999999999" as="sourcePoint" />
+            <mxPoint x="938" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-17" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 3389&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3997" y="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-18" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" value="&lt;b&gt;Кодировка серверов&lt;/b&gt;&lt;br&gt;&lt;br&gt;W - веб сервер IIS&lt;br&gt;Q: Сервер базы данных SQL&lt;br&gt;DC -&amp;nbsp; Domain Controllers&lt;br&gt;ES -ESET Server&lt;br&gt;А - Администраторы&amp;nbsp;&lt;br&gt;MS -&amp;nbsp; Системы мониторинга&lt;br&gt;SIEM - QRadar SIEM&lt;br&gt;WC - WinCollect&lt;br&gt;K - кластер Kubernetes" vertex="1">
+          <mxGeometry height="192.62" width="140" x="413.0400000000009" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-19" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-106" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="616.7900000000009" y="791.43" />
+            </Array>
+            <mxPoint x="626.7900000000009" y="789.43" as="sourcePoint" />
+            <mxPoint x="766.7900000000009" y="791.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-20" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1676" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-21" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-78" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;startArrow=none;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-114" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="706.7900000000009" y="929.43" />
+              <mxPoint x="706.7900000000009" y="929.43" />
+            </Array>
+            <mxPoint x="656.7900000000009" y="829.43" as="sourcePoint" />
+            <mxPoint x="716.7900000000009" y="899.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-22" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https:443&lt;br&gt;http: 80 (redirect)&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1819" y="-1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-23" parent="1" style="swimlane;startSize=0;dashed=1;strokeWidth=1;fillColor=#FFF2CC;strokeColor=#3333FF;gradientColor=#FFF4C3;swimlaneFillColor=none;fontColor=#000000;" value="" vertex="1">
+          <mxGeometry height="1091" width="141" x="918" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-24" parent="K-CkyWVL4vgsXOSi3DJp-23" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.primary_site;fontColor=#000000;" value="&lt;b&gt;&lt;font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;Q1.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;База данных ПН&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;10.10.24.2&lt;br&gt;(netmask 255.255.255.240)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="91" width="64.78" x="42" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-25" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-23" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-86" y="147" />
+            </Array>
+            <mxPoint x="-86.43000000000029" y="228.43" as="sourcePoint" />
+            <mxPoint x="251" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-26" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2295" y="-1" as="geometry">
+            <mxPoint x="-8" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-27" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-23" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="43" y="742" />
+              <mxPoint x="584" y="742" />
+              <mxPoint x="584" y="51" />
+            </Array>
+            <mxPoint x="42.779999999998836" y="339" as="sourcePoint" />
+            <mxPoint x="493.77999999999884" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-28" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;pre style=&quot;font-size: 9px&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; , serif&quot;&gt;tcp:135, 1024-65535,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; , serif&quot;&gt;636,&lt;br&gt;3268, 3269, 445;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; , serif ; text-align: justify&quot;&gt;tcp/udp88, 53, 389, 1024-65535&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7825" y="1" as="geometry">
+            <mxPoint x="-42" y="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-29" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-23" source="K-CkyWVL4vgsXOSi3DJp-57" style="endArrow=classic;html=1;rounded=0;fontSize=9;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="64" y="411" />
+            </Array>
+            <mxPoint x="160.0030000000006" y="673.9860000000001" as="sourcePoint" />
+            <mxPoint x="64" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-30" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;tcp 1521&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.43" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-31" parent="K-CkyWVL4vgsXOSi3DJp-23" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_orange;labelBackgroundColor=#FFF2CC;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Q4 Бэкап &lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; font-size: 11px ; background-color: rgb(255 , 242 , 204)&quot;&gt;10.10.24.4&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="51" width="43" x="85" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-32" parent="K-CkyWVL4vgsXOSi3DJp-23" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; font-size: 11px ; letter-spacing: 0px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W15 Админпанель&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot;&quot;&gt;10.10.24.3&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="49.51" width="37.64" x="78" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-33" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-23" source="K-CkyWVL4vgsXOSi3DJp-24" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-32" value="&lt;font style=&quot;font-size: 10px&quot;&gt;tcp 1433&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0609" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="74" y="171" />
+              <mxPoint x="97" y="171" />
+            </Array>
+            <mxPoint x="83" y="265" as="sourcePoint" />
+            <mxPoint x="133" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-34" parent="1" style="swimlane;startSize=0;dashed=1;strokeWidth=1;gradientColor=#CCFFCC;fillColor=#FFF2CC;shadow=0;rounded=0;fontColor=#000000;" value="" vertex="1">
+          <mxGeometry height="1124" width="1315" x="1059" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-35" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: verdana; letter-spacing: 0px; direction: ltr; line-height: 13.2px; opacity: 1;&quot;&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W10.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;RPS&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;themed&amp;quot; ; font-size: 11px&quot;&gt;10.10.2.145&lt;/span&gt;&lt;span style=&quot;font-size: 10px ; font-family: &amp;quot;times new roman&amp;quot; ; letter-spacing: 0px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="54" width="43" x="205.63" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-36" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Сотрудники Банка&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50.57" width="40" x="328" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-37" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" source="K-CkyWVL4vgsXOSi3DJp-36" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-35" value="">
+          <mxGeometry height="50" width="50" x="-86.31000000000131" y="-134.90000000000003" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="580" />
+              <mxPoint x="250" y="580" />
+            </Array>
+            <mxPoint x="158.79000000000087" y="543.64" as="sourcePoint" />
+            <mxPoint x="41.79000000000087" y="543.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-38" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;b&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;https443/http 80&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0814" y="-4" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-39" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;letter-spacing: 0px; font-family: calibri; direction: ltr; line-height: 13.2px; opacity: 1; font-size: 11px;&quot;&gt;W8.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px; font-family: themed; direction: ltr; line-height: 13.2px; opacity: 1; font-size: 11px;&quot;&gt;Внутренняя СШ&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-family: themed; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;10.10.2.26&lt;br&gt;10.10.12.126&lt;br&gt;10.10.12.226&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="49.08" width="37" x="44" y="38.22" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-40" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.enterprise.database_server;fontColor=#000000;" value="&lt;font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;Q2.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;&amp;nbsp;БД ИБ&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;10.10.2.203&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="36" x="142.32000000000002" y="38.22" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-41" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W7&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;.ЭБ &quot;ЦОЖ&quot;&lt;br&gt;10.10.20.3&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48.87" width="40" x="112" y="168.13" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-42" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;#34;calibri&amp;#34; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W9&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;#34;themed&amp;#34; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;. Узел Blockchain&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;10.10.25.8&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="49" width="38" x="34" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-43" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console;fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(255 , 255 , 255)&quot;&gt;A1 172.21.2.251&lt;/span&gt;&lt;br style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(255 , 255 , 255)&quot;&gt;A2 172.21.2.249&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="39.68" x="222.32" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-44" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Security_Center.svg;fontColor=#000000;" value="&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; text-indent: -24px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;ES: 172.22.0.173&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50.02" width="36.01" x="271" y="325.98" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-45" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.monitoring_sql_reporting_services;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;MS1&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&lt;span&gt;&amp;nbsp;Z&lt;/span&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;abbix&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&amp;nbsp;10.10.12.109&lt;/span&gt;&lt;br style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;10.10.12.111&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="62.77" width="40" x="274" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-46" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.monitoring_sql_reporting_services;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;MS2 А&lt;/font&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;ppdynamics&lt;/span&gt;&lt;font face=&quot;Verdana&quot; style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;&lt;br&gt;&amp;nbsp;&lt;/font&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;10.10.2.231&lt;br&gt;10.10.2.240&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68.5" width="38.36" x="378" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-47" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.domain_controller;fontColor=#000000;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 10px&quot;&gt;DC: &lt;/font&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px&quot;&gt;172.22.0.77&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px&quot;&gt;172.22.0.177&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px&quot;&gt;10.10.2.7&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px&quot;&gt;10.10.8.7&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="384.00000000000057" y="38.219999999999885" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-48" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Device_Provisioning_Services.svg;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;background-color: rgb(248 , 249 , 250) ; font-size: 10px&quot;&gt;Q 6 Kafka CRM&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(248 , 249 , 250) ; font-size: 10px&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;10.10.12.47&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="47.99" x="223.01000000000002" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-49" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-39" y="452" />
+            </Array>
+            <mxPoint x="-39" y="376" as="sourcePoint" />
+            <mxPoint x="125.57399999999745" y="480.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-50" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" value="&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif ; font-size: 10px&quot;&gt;tcp 1433&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2469" as="geometry">
+            <mxPoint x="-54" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-51" parent="K-CkyWVL4vgsXOSi3DJp-34" style="vsdxID=438;fillColor=#FFFFFF;gradientColor=none;shape=stencil(UzV2Ls5ILEhVNTIoLinKz04tz0wpyVA1dlE1MsrMy0gtyiwBslSNXVWNndPyi1LTi/JL81Ig/IJEkEoQKze/DGRCBUSfAUiHkUElhGdoAOG7QZTmZOYhKTWlkVqYJFmKiXcDVVSSqRDNS0AGIj7SMnNyINGJLI8ef0AhSNwbuwIA);spacingLeft=1;spacingRight=1;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontColor=#000000;" value="&lt;font style=&quot;font-size: 12px&quot;&gt;LAN&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30.11" width="624" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-52" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.trusted_application_server;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;WinCollect&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;172.22.0.166&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58.04" width="48" x="335" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-53" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-52" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="359" y="310" />
+            </Array>
+            <mxPoint x="-1" y="310" as="sourcePoint" />
+            <mxPoint x="319.08" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-54" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#000000;" value="&lt;span style=&quot;font-size: 9px&quot;&gt;tcp 514&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3893" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-55" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;letter-spacing: 0px; direction: ltr; line-height: 13.2px; opacity: 1; font-size: 10px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 10px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;K1. Enpfadmin&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; font-size: 10px ; letter-spacing: 0px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="43" x="301.9999999999999" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-56" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console;fontColor=#000000;" value="&lt;font face=&quot;verdana&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;Сотрудники ДЦТ&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="35" width="34.82" x="112" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-57" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.enterprise.database_server;fontColor=#000000;" value="&lt;font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;Q5.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;&amp;nbsp;BI&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;10.10.2.5&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="54" width="37" x="340.5" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-58" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" style="endArrow=classic;startArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-54" y="512" />
+            </Array>
+            <mxPoint x="-54" y="378" as="sourcePoint" />
+            <mxPoint x="66" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-59" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font face=&quot;calibri, sans-serif&quot; style=&quot;font-size: 11px&quot;&gt;any&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3969" y="1" as="geometry">
+            <mxPoint x="-2" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-60" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.monitoring_sql_reporting_services;fontColor=#000000;" value="&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;SIEM 172.22.0.163&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="56" width="39.5" x="140.57" y="474.5" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-61" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-91" y="677" />
+              <mxPoint x="211" y="677" />
+            </Array>
+            <mxPoint x="-91" y="418" as="sourcePoint" />
+            <mxPoint x="211" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-62" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 1433&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1372" y="-1" as="geometry">
+            <mxPoint x="79" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-63" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" source="K-CkyWVL4vgsXOSi3DJp-69" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="614" />
+            </Array>
+            <mxPoint x="24" y="616" as="sourcePoint" />
+            <mxPoint x="106" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-64" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&amp;nbsp; &amp;nbsp;tcp 1433, 8413, 514&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3821" y="2" as="geometry">
+            <mxPoint x="18" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-65" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-57" y="468" />
+              <mxPoint x="118" y="468" />
+              <mxPoint x="118" y="507" />
+            </Array>
+            <mxPoint x="-57" y="421" as="sourcePoint" />
+            <mxPoint x="131" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-66" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;span style=&quot;font-family: monospace; font-size: 0px; background-color: rgb(248, 249, 250);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Btcp%201433%2C%208413%2C%20514%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-25019%22%20y%3D%22596%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 0px; background-color: rgb(248, 249, 250);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Btcp%201433%2C%208413%2C%20514%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-25019%22%20y%3D%22596%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2606" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-67" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;span style=&quot;font-size: 9px&quot;&gt;tcp 1433, 8413, 514&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4014" as="geometry">
+            <mxPoint x="16" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-68" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.web_server_blue;fontColor=#000000;" value="&lt;font style=&quot;font-size: 11px&quot; face=&quot;Times New Roman&quot;&gt;W6. ShepWeb&lt;br&gt;&lt;/font&gt;&lt;div class=&quot;WordSection1&quot; style=&quot;font-size: 11px&quot;&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0cm 0cm 0.0001pt ; line-height: normal&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;10.10.2&lt;/span&gt;5&lt;span lang=&quot;EN-US&quot;&gt;.&lt;/span&gt;2&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" width="49" x="185" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-69" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_orange;labelBackgroundColor=#FFF2CC;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Q3 Горячий резерв&lt;br&gt;&amp;nbsp;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;10.10.27.2&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; background-color: rgb(255 , 242 , 204)&quot;&gt;10.10.24.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; background-color: rgb(255 , 242 , 204)&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="54" width="43" x="24" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-70" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" source="K-CkyWVL4vgsXOSi3DJp-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="K-CkyWVL4vgsXOSi3DJp-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="593" y="859" />
+              <mxPoint x="593" y="63" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-71" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="tcp 1433" vertex="1">
+          <mxGeometry relative="1" x="0.5296" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-72" parent="K-CkyWVL4vgsXOSi3DJp-34" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr_cluster;fillColor=#F58534;gradientColor=none;" value="K1. Кластер Kubernetes&lt;br&gt;множественная адресация" vertex="1">
+          <mxGeometry height="63" width="55.5" x="320.25" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-73" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-34" source="K-CkyWVL4vgsXOSi3DJp-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="K-CkyWVL4vgsXOSi3DJp-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-74" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="tcp 3857" vertex="1">
+          <mxGeometry relative="1" x="0.5359" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-75" parent="K-CkyWVL4vgsXOSi3DJp-34" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot;; font-size: 11px; letter-spacing: 0px; direction: ltr; line-height: 13.2px; opacity: 1;&quot;&gt;W11&lt;/font&gt;&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot;; font-size: 11px; letter-spacing: 0px; direction: ltr; line-height: 13.2px; opacity: 1;&quot;&gt;.Веб-сервер СЭО&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;172.22.0.102&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59.51" width="44.09" x="569" y="981" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-76" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="K-CkyWVL4vgsXOSi3DJp-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="947" />
+              <mxPoint x="662" y="1267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-77" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https 443" vertex="1">
+          <mxGeometry relative="1" x="-0.6549" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-78" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;fillColor=#7FBA42;fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Клиенты Банка&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="58.09" x="445" y="889.79" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-79" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="657" />
+              <mxPoint x="1348" y="657" />
+            </Array>
+            <mxPoint x="1062" y="657" as="sourcePoint" />
+            <mxPoint x="1296" y="701" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-80" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: calibri, sans-serif;&quot;&gt;tcp&lt;/span&gt;&lt;span style=&quot;font-family: calibri, sans-serif;&quot;&gt;: 2222, 3128,&lt;br&gt;139, 445, 137, 138;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;&lt;span style=&quot;font-family: calibri, sans-serif;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: calibri, sans-serif;&quot;&gt;udp&lt;/span&gt;&lt;span style=&quot;font-family: calibri, sans-serif;&quot;&gt;: 1237, 1238&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5125" as="geometry">
+            <mxPoint x="-147" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-81" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="573" />
+              <mxPoint x="1240" y="573" />
+            </Array>
+            <mxPoint x="1061" y="573" as="sourcePoint" />
+            <mxPoint x="1165" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-82" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 8090, 1433&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0146" y="2" as="geometry">
+            <mxPoint x="-56" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-83" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-11" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="465" />
+            </Array>
+            <mxPoint x="809.9994736842091" y="494.97" as="sourcePoint" />
+            <mxPoint x="1153.9099999999999" y="485.59263157894725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-84" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp:13054, 17051, 3000,&lt;br&gt;3001, 7050, 7051, &lt;font color=&quot;#ff3333&quot;&gt;52614&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1058" y="1" as="geometry">
+            <mxPoint x="58" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-85" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-45" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="542" />
+            </Array>
+            <mxPoint x="1003" y="542" as="sourcePoint" />
+            <mxPoint x="1255" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-86" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-85" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 10050&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3126" y="-3" as="geometry">
+            <mxPoint x="104" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-87" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Verdana;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Архитектура Портала недвижимости otbasybank.kz&amp;nbsp;&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="1121" x="407" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-88" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-11" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="313" />
+            </Array>
+            <mxPoint x="886" y="451" as="sourcePoint" />
+            <mxPoint x="936" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-89" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;http80&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.078" y="-4" as="geometry">
+            <mxPoint x="130" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-90" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-113" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="837" y="303" />
+              <mxPoint x="837" y="303" />
+            </Array>
+            <mxPoint x="844" y="346.0000000000001" as="sourcePoint" />
+            <mxPoint x="1083" y="304.96000000000015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-91" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https 443/http80&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4163" y="2" as="geometry">
+            <mxPoint x="-62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-92" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-56" style="endArrow=classic;html=1;rounded=0;fontSize=9;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1089" y="640" as="sourcePoint" />
+            <mxPoint x="1057" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-93" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-92" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#000000;" value="tcp 1433" vertex="1">
+          <mxGeometry relative="1" x="-0.1877" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-94" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#000000;edgeStyle=orthogonalEdgeStyle;" target="K-CkyWVL4vgsXOSi3DJp-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="994" />
+              <mxPoint x="1375" y="994" />
+            </Array>
+            <mxPoint x="950" y="620" as="sourcePoint" />
+            <mxPoint x="1217" y="951" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-95" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#000000;" value="tcp 1433" vertex="1">
+          <mxGeometry relative="1" x="0.5123" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-96" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.website;rounded=0;labelBackgroundColor=#FFF2CC;fontSize=9;fontColor=#000000;" value="&lt;font style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Внешний сайт&amp;nbsp;&lt;br&gt;185.253.8.72&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="59" x="469" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-97" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-96" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#000000;edgeStyle=orthogonalEdgeStyle;" target="K-CkyWVL4vgsXOSi3DJp-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="557" y="562" />
+            </Array>
+            <mxPoint x="535" y="384" as="sourcePoint" />
+            <mxPoint x="585" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-98" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#000000;" value="https 443" vertex="1">
+          <mxGeometry relative="1" x="0.2877" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-99" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-115" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=-0.015;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="883" y="602" />
+            </Array>
+            <mxPoint x="863" y="694" as="sourcePoint" />
+            <mxPoint x="913" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-100" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 9px&quot;&gt;tcp 1433&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5288" y="-1" as="geometry">
+            <mxPoint x="11" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-101" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-36" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-115" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1479" y="835" />
+              <mxPoint x="1479" y="1002" />
+              <mxPoint x="882" y="1002" />
+            </Array>
+            <mxPoint x="989" y="970" as="sourcePoint" />
+            <mxPoint x="882" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-102" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;https: 443/http 80&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7996" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-103" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-115" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="553" />
+            </Array>
+            <mxPoint x="821" y="716" as="sourcePoint" />
+            <mxPoint x="871" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-104" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;tcp 8017&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.533" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-105" parent="1" style="swimlane;startSize=0;dashed=1;strokeWidth=1;swimlaneLine=0;shadow=0;sketch=0;fillColor=#FFF2CC;labelBackgroundColor=#FFF2CC;fontColor=#000000;" value="" vertex="1">
+          <mxGeometry height="1121" width="351.64" x="565" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-106" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; letter-spacing: 0px ; font-size: 11px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W4&lt;/font&gt;&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; letter-spacing: 0px ; font-size: 11px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;. QrApi&lt;br&gt;192.168.55.48&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="62.12" width="50" x="25.95" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-107" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W3&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;font&gt;. Видеоброкер&lt;br&gt;192.168.55.28&lt;br&gt;192.168.55.111&lt;br&gt;192.168.55.112&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="57.01" width="43.79" x="86.73" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-108" parent="K-CkyWVL4vgsXOSi3DJp-105" style="vsdxID=433;fillColor=#FFFFFF;gradientColor=none;shape=stencil(UzV2Ls5ILEhVNTIoLinKz04tz0wpyVA1dlE1MsrMy0gtyiwBslSNXVWNndPyi1LTi/JL81Ig/IJEkEoQKze/DGRCBUSfAUiHkUElhGdoAOG7QZTmZOYhKTWlkVqYJFmKiXcDVVSSqRDNS0AGIj7SMnNyINGJLI8ef0AhSNwbuwIA);spacingLeft=1;spacingRight=1;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontColor=#000000;" value="&lt;font style=&quot;font-size: 12px&quot;&gt;DMZ&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25" width="351.64" x="-2" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-109" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-105" source="K-CkyWVL4vgsXOSi3DJp-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K-CkyWVL4vgsXOSi3DJp-114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-110" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.dependency_monitor;fontColor=#000000;" value="&lt;font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;W1.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;Балансировщик&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;192.168.51.2&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="78" width="59.79" x="204" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-111" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-105" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="219.6099999999997" y="204.2" />
+              <mxPoint x="219.6099999999997" y="204.2" />
+            </Array>
+            <mxPoint x="220.04478260869567" y="261.63000000000005" as="sourcePoint" />
+            <mxPoint x="220.03999999999942" y="171.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-112" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 8px&quot;&gt;https 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0428" y="3" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-113" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;letter-spacing: 0px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1 ; font-size: 11px&quot;&gt;W2&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1 ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;. Внешняя СШ&lt;br&gt;192.168.55.26&lt;br&gt;192.168.55.133&lt;br&gt;192.168.55.126&lt;br&gt;192.168.55.226&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="51.73" width="39.79" x="177" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-114" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;fontColor=#000000;" value="&lt;font&gt;&lt;font style=&quot;font-family: &amp;quot;verdana&amp;quot; ; font-size: 10px&quot;&gt;Web Application Firewall&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;verdana&amp;quot; ; font-size: 10px&quot;&gt;X.X.X.X&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="69.5" width="70" x="131.79000000000087" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-115" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: &amp;quot;verdana&amp;quot;&quot;&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;W5&lt;/font&gt;&lt;font style=&quot;letter-spacing: 0px ; font-size: 11px ; font-family: &amp;quot;themed&amp;quot; ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;.&amp;nbsp; ПН old&lt;br&gt;192.168.55.34&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-family: &amp;quot;verdana&amp;quot; ; letter-spacing: 0px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;&lt;span style=&quot;font-size: 10px; font-family: &amp;quot;times new roman&amp;quot;; letter-spacing: 0px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="66.87" width="50" x="286" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-116" edge="1" parent="K-CkyWVL4vgsXOSi3DJp-105" source="K-CkyWVL4vgsXOSi3DJp-114" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-110" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https 443&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1254" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="161" y="563" />
+            </Array>
+            <mxPoint x="117.79000000000087" y="689.93" as="sourcePoint" />
+            <mxPoint x="237.79000000000087" y="582.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-117" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.application_server;fontColor=#000000;" value="&lt;font style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; font-size: 11px ; letter-spacing: 0px ; direction: ltr ; line-height: 13.2px ; opacity: 1&quot;&gt;K1 Partner.hcsbk.kz&lt;/font&gt;" vertex="1">
+          <mxGeometry height="49.51" width="37.64" x="286" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-118" parent="K-CkyWVL4vgsXOSi3DJp-105" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.dependency_monitor;fontColor=#000000;" value="&lt;font&gt;&lt;font style=&quot;font-size: 11px ; font-family: &amp;quot;calibri&amp;quot; ; direction: ltr ; letter-spacing: 0px ; line-height: 13.2px ; opacity: 1&quot;&gt;W18.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;direction: ltr; line-height: 13.2px; opacity: 1;&quot;&gt;&lt;font face=&quot;themed&quot;&gt;Балансировщик&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;themed&quot;&gt;&lt;span style=&quot;font-size: 11px; letter-spacing: 0px;&quot;&gt;биометрии&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;a style=&quot;font-family: Helvetica; font-size: 12px; letter-spacing: 0px; background-color: initial;&quot; href=&quot;https://biometry.otbasybank.kz/&quot;&gt;https://biometry.otbasybank.kz/&lt;/a&gt;&lt;br&gt;&lt;font face=&quot;themed&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;192.168.56.52&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="38.33" x="254.88" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-119" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-117" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="962" y="348" />
+            </Array>
+            <mxPoint x="960" y="421" as="sourcePoint" />
+            <mxPoint x="1010" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-120" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-119" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;tcp 1433&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0047" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-121" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-31" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1035" y="805" />
+            </Array>
+            <mxPoint x="1120" y="815" as="sourcePoint" />
+            <mxPoint x="1170" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-122" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-121" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;span style=&quot;font-size: 9px&quot;&gt;tcp 1433, 8413, 514&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4335" y="-2" as="geometry">
+            <mxPoint x="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-123" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-11" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-68" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1269" y="516" />
+            </Array>
+            <mxPoint x="1246" y="533" as="sourcePoint" />
+            <mxPoint x="1296" y="483" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-124" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-123" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" value="&lt;font style=&quot;font-size: 10px&quot;&gt;https 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7463" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-125" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-24" style="endArrow=classic;startArrow=none;html=1;rounded=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;fontColor=#000000;" target="K-CkyWVL4vgsXOSi3DJp-69" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="853" />
+            </Array>
+            <mxPoint x="1036.7900000000009" y="677.4300000000001" as="sourcePoint" />
+            <mxPoint x="1093.3600000000042" y="729.0526315789473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-126" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#000000;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;calibri, sans-serif&quot; style=&quot;font-size: 11px;&quot;&gt;any&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <mxPoint x="-4" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-127" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.262;entryY=0.934;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="K-CkyWVL4vgsXOSi3DJp-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1407" y="1055" />
+              <mxPoint x="977" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-128" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-127" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="tcp 1433" vertex="1">
+          <mxGeometry relative="1" x="-0.328" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-129" edge="1" parent="1" source="K-CkyWVL4vgsXOSi3DJp-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="K-CkyWVL4vgsXOSi3DJp-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1407" y="1289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-130" connectable="0" parent="K-CkyWVL4vgsXOSi3DJp-129" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https 443" vertex="1">
+          <mxGeometry relative="1" x="0.0382" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-CkyWVL4vgsXOSi3DJp-131" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;K1 Адреса:&lt;br&gt;&lt;/b&gt;&lt;div&gt;dct-prod-cp-1 10.10.32.151&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s control plane 1&lt;/div&gt;&lt;div&gt;dct-prod-cp-2&lt;span style=&quot;&quot;&gt; &lt;/span&gt;10.10.32.152&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s control plane 2&lt;/div&gt;&lt;div&gt;dct-prod-cp-3&lt;span style=&quot;&quot;&gt; &lt;/span&gt;10.10.32.153&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s control plane 3&lt;/div&gt;&lt;div&gt;dct-prod-wk-1&lt;span style=&quot;&quot;&gt; &lt;/span&gt;10.10.32.154&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s worker node 1&lt;/div&gt;&lt;div&gt;dct-prod-wk-2&lt;span style=&quot;&quot;&gt; &lt;/span&gt;10.10.32.155&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s worker node 2&lt;/div&gt;&lt;div&gt;dct-prod-wk-3&lt;span style=&quot;&quot;&gt; &lt;/span&gt;10.10.32.156&lt;span style=&quot;&quot;&gt; &lt;/span&gt;k8s worker node 3&lt;/div&gt;&lt;div&gt;dct-prod-wk-4 10.10.32.157 k8s worker node 4&lt;/div&gt;&lt;div&gt;dct-prod-wk-5 10.10.32.158 k8s worker node 5&lt;/div&gt;&lt;div&gt;dct-prod-wk-6 10.10.32.159 k8s worker node 6&lt;/div&gt;&lt;div&gt;dct-prod-wk-7 10.10.32.160 k8s worker node 7&lt;/div&gt;&lt;div&gt;dct-prod-wk-8 10.10.32.161&amp;nbsp;k8s worker node 8&lt;/div&gt;&lt;div&gt;dct-prod-wk-9 10.10.32.162&amp;nbsp;k8s worker node 9&lt;/div&gt;&lt;div&gt;dct-prod-wk-10 10.10.32.163&amp;nbsp;k8s worker node 10&lt;/div&gt;&lt;div&gt;dct-prod-wk-11 10.10.32.164&amp;nbsp;k8s worker node 11&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;r&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="270" x="300" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

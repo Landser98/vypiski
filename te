@@ -1,14 +1,1 @@
-$cs = "Server=10.10.15.86,1433;Database=pn-db-new;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-$cn = New-Object System.Data.SqlClient.SqlConnection $cs
-$cn.Open()
-$cmd = $cn.CreateCommand()
-$cmd.CommandText = "SELECT COUNT(*) AS total, SUM(CAST(IsDeleted AS INT)) AS deleted, MIN(CreateDate) AS first_date, MAX(CreateDate) AS last_date FROM [pn-db-new].[landau].[AccountStatements]"
-$r = $cmd.ExecuteReader()
-while ($r.Read()) {
-    Write-Host "total      = $($r['total'])"
-    Write-Host "deleted    = $($r['deleted'])"
-    Write-Host "first_date = $($r['first_date'])"
-    Write-Host "last_date  = $($r['last_date'])"
-}
-$r.Close()
-$cn.Close()
+TFTwzCfE65UkEMuspheCFjPJg73Zq75RBy

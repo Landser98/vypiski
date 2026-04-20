@@ -1,1 +1,21 @@
-hvs.y4FevTAaToLcvM4074AHoHQ1
+{
+  "ALLOWED_ORIGINS": "http://bank-parser-upload-ui:8502,http://bankparserui:8502",
+
+  "DB_HOST": "10.10.50.154",
+  "DB_NAME": "bank_statements",
+  "DB_PASSWORD": "secure_password",
+  "DB_PORT": "31243",
+  "DB_SSLMODE": "",
+  "DB_USER": "bank_user",
+
+  "SECRET_KEY": "DzM4LjvSeaMSRGaQscMpqjVbiIpNUzyOer-kGm7po34Ph2E5azQ6E8mPt5q3aXsN0gyYm-Ob6_Y8U7hMoTfBOA",
+
+  "MSSQL_HOST": "10.10.15.86",
+  "MSSQL_PORT": "1433",
+  "MSSQL_DATABASE": "pn-db-new",
+  "MSSQL_AUTH": "windows",
+  "MSSQL_DRIVER": "ODBC Driver 18 for SQL Server",
+  "MSSQL_ENCRYPT": "yes",
+  "MSSQL_TRUST_CERT": "yes",
+  "MSSQL_TIMEOUT": "10"
+}

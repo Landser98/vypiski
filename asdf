@@ -1,2 +1,2 @@
-"RealtyPortal": "Server=10.10.21.4;Initial Catalog=pn-db;User ID=pn-db-user2;Password=hj!yuur78we71;Max Pool Size = 5000;Pooling = True;TrustServerCertificate=True;",
-    "OnlineBank": "Data Source=10.10.15.86;Initial Catalog=ib-db;User ID=ib-db-user;Password=9PwV5Eg?zp;Max Pool Size = 5000;Pooling = True;"
+"MSSQL_CONNSTR_OnlineBank": "Data Source=10.10.15.86;Initial Catalog=ib-db;User ID=ib-db-user;Password=9PwV5Eg?zp;Max Pool Size=5000;Pooling=True;",
+"MSSQL_CONNSTR_RealtyPortal": "Server=10.10.21.4;Initial Catalog=pn-db;User ID=pn-db-user2;Password=hj!yuur78we71;Max Pool Size=5000;Pooling=True;TrustServerCertificate=True;"
